@@ -4,8 +4,17 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	background-image: url("../../images/01-foto_hintergrund_website/aussen5_20190430_104106_HDR.jpg");
+	background-color: #cccccc;
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+  
 }
-
+.shadow{
+	background-color: #f8f8f8;
+}
 a:hover {
 	text-decoration: none;
 }
@@ -316,7 +325,7 @@ pre {
 	margin: 20px 0px;
 }
 .tiles{
-
+    background-color: #333;
 	margin: 30px 0px;
 }
 img.img-responsive {
@@ -920,3 +929,4 @@ textarea#message {
 	padding-right: 25px;
 	padding-left: 25px;
 }
+
